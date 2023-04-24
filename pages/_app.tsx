@@ -25,7 +25,7 @@ useEffect(() => {
 })
 
 return loading && (<div className='spinner-wrapper'>
-  <div className="spinner"></div></div>)
+  <div className="spinner"> </div></div>)
 }
 
 
