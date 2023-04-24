@@ -1,0 +1,522 @@
+/* hero section */
+.background_images {
+  height: 80%;
+  width: auto;
+  display: flex;
+}
+.notfound {
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+}
+.container {
+  width: 100%;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.content_heading{
+  font-size: 80px;
+  font-family: 'Inter',sans-serif;
+  background: -webkit-linear-gradient(90deg, #007cf0, #00dfd8);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.background {
+  pointer-events: none;
+  height: 100vh;
+}
+
+.web_icon {
+  height: 80vh;
+  width: auto;
+  display: flex;
+  left: 790px;
+  top: 80px;
+}
+.web_icon img {
+  height: 70vh;
+  width: auto;
+}
+
+.title_text {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.para_1 {
+  font-family: "Poppins", sans-serif;
+}
+/* Top section */
+
+.bg_container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+
+  background: #8b3dff;
+}
+.typing_animation {
+  padding: 15px;
+}
+.typing_animation h1 {
+  font-size: 130px;
+}
+.para_1 {
+  font-size: 30px;
+}
+.hero_image {
+  width: 30%;
+  height: 40vh;
+}
+.hero_image img {
+  object-fit: cover;
+}
+.hero_content {
+  width: 65%;
+}
+/* why choose us */
+.boxes {
+  width: 40%;
+}
+.services {
+  width: 70%;
+}
+.box_bg1 {
+  height: auto;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.gradient {
+  position: absolute;
+  top: 2;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin-left: 80px;
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+  height: 80vh;
+  width: 35.3vw;
+  border-radius: 12px;
+}
+
+.box_bg1 img {
+  object-fit: cover;
+  border-radius: 12px;
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  overflow-x: hidden;
+}
+
+.ecommerce {
+  padding: 10px;
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #efefef;
+}
+
+.text_1 {
+  font-size: 10px;
+}
+
+/* h1{
+      font-size: 14px;
+      color: black !important;
+    } */
+
+.para_e p {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.row_1 {
+  width: calc(100% / 3);
+}
+/* Portfolio */
+.count h1 {
+  color: white;
+  font-family: poppins;
+}
+
+.counter_main {
+  background: rgb(34, 34, 34);
+  height: 100px;
+}
+
+.proto_main {
+  padding-top: 130px;
+}
+
+.semi-title {
+  font-family: poppins;
+}
+
+.adsaro img {
+  height: 30vh;
+  width: auto;
+}
+
+.load_btn {
+  border-radius: 8px;
+}
+.adsaro {
+  transition: transform 0.4s ease-in-out;
+}
+
+.adsaro:hover {
+  transform: scale(1.1);
+}
+
+.text_count {
+  color: black;
+}
+
+.clients_title {
+  color: black;
+  text-align: center;
+}
+.counter_clients h1 {
+  font-size: 30px;
+}
+
+@-webkit-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes AnimationName {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.box_1 {
+  overflow: hidden;
+  position: relative;
+  height: 220px;
+  width: 300px;
+  object-fit: contain;
+  border: 1px solid rgb(125, 0, 0);
+}
+.client_name {
+  top: 0;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 500ms;
+}
+.box_1:hover .client_name {
+  transform: scaleY(1);
+  transform-origin: top;
+}
+.client_heading {
+  font-size: 35px;
+  color: #ffffff;
+}
+.box_1:hover img {
+  transform: scale(1.5);
+  overflow: hidden;
+}
+
+.box_1 img {
+  height: 100%;
+  width: 300px;
+  object-fit: cover;
+  object-position: top;
+  overflow: hidden;
+  transition: transform 500ms, filter 1s ease-out;
+}
+/* Our client */
+
+.box {
+  height: 192px;
+  width: 192px;
+  background-color: bisque;
+}
+
+.box img {
+  height: 192px;
+  width: 192px;
+  object-fit: contain;
+  object-position: center;
+}
+.main_container {
+  display: flex !important;
+  justify-content: center;
+}
+/* blog section */
+.image_blog1 {
+  width: 60%;
+  height: 50vh;
+  /* overflow: hidden; */
+  border: 25px;
+}
+
+.image_blog1 {
+  border-radius: 25px;
+}
+
+.blog_image {
+  width: 100%;
+
+  border-radius: 25px;
+  height: auto;
+  object-fit: cover;
+}
+
+.image_title {
+  width: 100%;
+  /* height: 100%; */
+  padding: 20px;
+  bottom: 0;
+}
+
+.fade_eff {
+  height: 100%;
+  position: absolute;
+  border-radius: 25px;
+  width: 100%;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.774));
+}
+.image_semi {
+  padding: 20px;
+}
+.image_semi img {
+  border-radius: 25px;
+}
+
+.box_main {
+  width: 100%;
+}
+
+.main_cont {
+  display: flex;
+  justify-content: center;
+}
+
+/* Faqs */
+
+.faqs {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.faqs .faq {
+  margin: 15px;
+  padding: 15px;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.faqs .faq .faq_question {
+  position: relative;
+  font-size: 20px;
+  padding-right: 80px;
+  transition: all 0.4s ease;
+}
+
+.faqs .faq .faq_question::after {
+  content: "+";
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  transform: translateY(-50%);
+  width: 30px;
+  height: 30px;
+  transition: all 0.2s ease;
+}
+
+.faqs .faq .faq_answer {
+  opacity: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.2s ease;
+}
+
+.faqs .faq.open .faq_question {
+  margin-bottom: 15px;
+}
+
+.faqs .faq.open .faq_question::after {
+  content: "-";
+}
+
+.faqs .faq.open .faq_answer {
+  max-height: 1000px;
+  opacity: 1;
+}
+/* footer section */
+.footer_main {
+  background-color: #251f59;
+  width: 100%;
+  height: auto;
+}
+
+.logo_footer {
+  padding-left: 50px;
+}
+
+.logo_footer img {
+  border-right: 3px solid white;
+  padding-right: 90px;
+  width: 400px;
+  height: auto;
+}
+
+.name li a:hover {
+  color: yellow;
+}
+
+.social_icons a:hover {
+  color: yellow;
+}
+
+@media only screen and (max-width: 768px) {
+  .image_blog1 {
+    width: 100%;
+    height: 50vh;
+    /* overflow: hidden; */
+    border: 25px;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .main_container_proto {
+    justify-content: center;
+  }
+  .main_container_proto .box_1 {
+    width: 100%;
+    height: auto;
+  }
+  .box_1 img {
+    width: 100%;
+    height: 100%;
+  }
+  .main_cont {
+    width: 100%;
+  }
+  .clients_title {
+    font-size: 30px;
+  }
+}
+@media only screen and (max-width: 465px) {
+  .counter_clients {
+    display: none;
+  }
+  .clients_title {
+    font-size: 40px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1260px) {
+  .boxes {
+    width: 100%;
+    height: 200px;
+  }
+  .main_content_2 {
+    flex-direction: column;
+  }
+  .services {
+    padding-top: 30px;
+    width: 100%;
+    padding-left: 0 !important;
+  }
+  .section_padding {
+    padding: 30px 60px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  .row_1 {
+    width: calc(100% / 2);
+  }
+  .section_padding {
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 550px) {
+  .row_1 {
+    width: 100%;
+  }
+  .section_padding {
+    padding: 30px;
+  }
+}
+@media only screen and (max-width: 458px) {
+  .content_div p {
+    font-size: 30px;
+  }
+  .content_div .about_us {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .hero_image {
+    width: 50%;
+    height: auto;
+  }
+  .hero_container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero_content {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .hero_image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 890px) {
+  .bg_container {
+    height: 60vh;
+  }
+  .typing_animation h1 {
+    font-size: 80px;
+  }
+}
+@media only screen and (max-width: 595px) {
+  .typing_animation h1 {
+    font-size: 50px;
+  }
+}
