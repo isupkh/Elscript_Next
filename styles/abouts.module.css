@@ -21,6 +21,7 @@
   line-height: 140px;
   display: block;
 }
+
 .hero_content p{
     text-align: center;
   font-size: 1.2rem;
@@ -150,6 +151,7 @@
         font-size: 40px;
     }
 }
+
 
 @media only screen and (max-width:534px){
     .about_heading{
