@@ -15,7 +15,6 @@ export const SecButton = (props: any) => {
   return (
     <button className={styles.more_btn}>
       <div className={styles.icon}> {props.icon}</div>
-      {props.name}
-    </button>
+      {props.name}  </button>
   );
 };
