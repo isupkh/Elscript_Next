@@ -215,8 +215,7 @@ const footer = () => {
               <p>Registration NO: 235874/076/077 | VAT: 609736238</p>
             </div>
           </div>
-        </div>
-      </div>
+        </div> </div>
     </>
   );
 };
