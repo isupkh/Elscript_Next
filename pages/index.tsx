@@ -91,7 +91,7 @@ export default function Home() {
               heading="2"
               titleheading1="Search Engine"
               titleheading2="Optimization"
-              paragraph="We do a brand analysis, identify the target market, and put targeted SEO strategies into action. Our guiding principle has been to incorporate optimization strategies quickly and comprehensively. Consequently, generating more leads, traffic, and website visits that noticeably improve conversion rates. We would be your dependable SEO company in Nepal, helping you get to the top. Our strategy revolves around data-driven SEO. Advanced digital techniques may be used to analyze and assess the choices and selections of online customers. For the specific data, our experts would go further into the minute details. And would add the subtleties in the information that we post online that is optimized."
+              paragraph="We do a brand analysis, identify the target market and put targeted SEO strategies into action. Our guiding principle has been to incorporate optimization strategies quickly and comprehensively. Consequently, generating more leads, traffic, and website visits that noticeably improve conversion rates. We would be your dependable SEO company in Nepal, helping you get to the top. Our strategy revolves around data-driven SEO. Advanced digital techniques may be used to analyze and assess the choices and selections of online customers. For the specific data, our experts would go further into the minute details. And would add the subtleties in the information that we post online that is optimized."
             />
 
             <DynamicWeb
