@@ -50,8 +50,7 @@ const thank = () => {
           Return to home
         </button>
         </Link>
-      </div>
-    </div>
+      </div>   </div>
   );
 };
 
