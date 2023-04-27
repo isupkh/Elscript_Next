@@ -15,6 +15,7 @@ const clients = () => {
         <div className={`${Styles.clients_title} span_heading`}>
           Our Clients
         </div>
+        
         <p className="content_para">
           Being able to state that we worked on so many client-provided projects
           makes us proud. Customer satisfaction is a key indicator of our

@@ -126,6 +126,7 @@ const footer = () => {
                 </Link>
               </li>
             </ul>
+            
           </div>
         </div>
         <div className={`${styles.sec_footer} pt-5`}>

@@ -17,6 +17,7 @@ import thanks from "../../pages/thanks";
 import { spawn } from "child_process";
 //loader rakhdeu
 // const baseURL = "https://api.elscript.com";
+
 const baseURL = main.URL; //check gara
 
 const notify = () => {
