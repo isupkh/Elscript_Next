@@ -72,7 +72,8 @@ const navbar = () => {
                   <Link href="/##">Cloud Solutions</Link>
                 </li>
               </ul>
-            </li> */}
+            </li> */
+            }
 
             <li>
               <Link href="/clients" className={router.pathname == '/clients' ? `${styles.active}`:`${styles.nav_list}`}>
