@@ -16,6 +16,7 @@ const pricingmain = (props) => {
                   {props.title}
                 </div>
               </div>
+
               {/* pricing */}
               <div className={Styles.pricing_start}>
                 <span>Starting from</span> <br />
@@ -38,9 +39,10 @@ const pricingmain = (props) => {
               ))}
 
               {/* btn */}
+              
               <div className={Styles.pricing_btn}>
                 <Link href="/contact">
-                <button type="submit" >Contact</button>
+                <button type="submit"> Contact </button>
                 </Link>
               </div>
             </div>
