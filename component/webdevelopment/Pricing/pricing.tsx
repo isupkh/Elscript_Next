@@ -92,6 +92,7 @@ const pricing = () => {
     {
       title: "Google/Apple/Bing Business Setup",
     },
+    
     {
       title: "Website Code Optimization",
     },
